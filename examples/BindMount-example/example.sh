@@ -1,0 +1,1 @@
+docker run -v ./website:/usr/share/nginx/html -p 80:80 image_name
