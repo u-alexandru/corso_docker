@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 LABEL authors="name"
-
-ENTRYPOINT ["top", "-b"]
+CMD World
+ENTRYPOINT ["echo", "Hello"]
